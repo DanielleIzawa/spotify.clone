@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    perspective: 800px;
+    background-color:  rgb(41, 65, 171);;
+}
+
+/* header */
+
+header .header{
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color:  rgb(0, 0, 0);
+    height: 10.5vh;
+    cursor: pointer;
+}
+header nav main{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    display:initial ;
+    margin-left: 25px;   
+
+    cursor: pointer;
+    transition: .3s ease-all;
+}
+/*change color when pass the mouse*/
+header nav main:hover{
+        color: rgb(30, 215, 96) ;
+}
+.main_a{
+    margin-left: 840px;
+    margin-top: -2rem;
+}
+.logo{
+  margin-left: 11.9rem;
+  margin-top: 1.2rem;
+}
+
+/* Body / Text */
+
+.HMaster{
+    margin-top: 8rem;
+    font-weight: 50rem;
+    margin-left: -35rem;
+} 
+.h1{
+    font-family:Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    font-size: 4rem;
+    color: rgb(30, 215, 96) ;
+    margin-top: 9rem;
+    margin-right: 0rem;
+}
+.h2{
+    font-family: Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    font-size: 5.5rem;
+    color: rgb(30, 215, 96) ;
+    margin-top: 1.5rem;
+    margin-left: 17rem;
+}
+.h3{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    text-decoration: none;
+    margin-top: 3rem;
+    margin-left: 18rem;
+    height: 3rem;
+    color: rgb(30, 215, 96) ;
+}
+
+/* Button Get Spotify Free */
+
+.button{
+    display: flex;
+    margin-top: 50rem;
+
+    cursor: pointer;
+    transition: .3s ease-all;
+}
+/*change color when you pass the mouse*/
+.button:hover{
+        color: rgb(30, 215, 96) ;
+} 
+.button button {
+  background: rgb(30, 215, 96);
+  border: none;
+  color: rgb(41, 65, 171);
+  border-radius:30px;
+  font-weight: bolder;
+  margin-left: 40rem;
+  width: 12rem;
+  height: 3rem;
+}
+
+/* Footer */
+
+.footer{
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height:60vh;
+    margin-bottom: -45rem;
+}
+.logo2{
+    margin-top: 5rem;
+    margin-left: 11.9rem;
+    cursor: pointer;
+}
+.container {
+    color:  rgb( 132, 140, 143);
+}
+.company {
+    font-size: 0.77rem;
+    margin-top: -1.5rem;
+    margin-left: 25rem;
+    font-weight: bolder;
+    width: 10%;
+}
+.ab{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-left: 25rem;
+    font-weight: bolder;
+    width: 10%;
+    color: white;
+
+    cursor: pointer;
+    transition: .3s ease-all;
+}
+/*change color when pass the mouse*/
+.ab:hover{
+        color: rgb(30, 215, 96) ;
+}
+.communities{
+    font-size: 0.77rem;
+    margin-top: -7.1rem;
+    margin-left: 37rem;
+    font-weight: bolder;
+    width: 10%;
+}
+.ac{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-left: 37rem;
+    font-weight: bolder;
+    width: 10%;
+    color: white;
+
+    cursor: pointer;
+    transition: .3s ease-all;
+}
+/*change color when pass the mouse*/
+.ac:hover{
+        color: rgb(30, 215, 96) ;
+}
+.useful {
+    font-size: 0.77rem;
+    margin-top: -11.3rem;
+    margin-left: 49rem;
+    font-weight: bolder;
+    width: 10%;
+}
+.ad{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-left: 49rem;
+    font-weight: bolder;
+    width: 10%;
+    color: white;
+
+    cursor: pointer;
+    transition: .3s ease-all;
+}
+/*change color when pass the mouse*/
+.ad:hover{
+        color: rgb(30, 215, 96) ;
+}
+.links{
+    margin-top: 11rem;
+    margin-left: 10rem;
+    font-size: 0.8rem;
+}
+.b {
+    margin-top: -1rem;
+    width: 40%;
+    color:  rgb( 132, 140, 143);
+    margin-left: 1rem;
+    font-size: 0.7rem;
+
+    cursor: pointer;
+    transition: .3s ease-all;
+}
+/*change color when pass the mouse*/
+.b:hover{
+        color: rgb(30, 215, 96) ;
+}
+
+.d {
+    width: 10%;
+    color:  rgb( 132, 140, 143);
+    margin-left: 80rem;
+    margin-top: 1rem;
+    
+    cursor: pointer;
+    transition: .3s ease-all;
+}
+.d:hover{
+    color: rgb(30, 215, 96) ;
+}
+
+.c {
+    width: 10%;
+    color:  rgb( 132, 140, 143);
+    margin-left: 80rem;
+    margin-top: -5rem;
+
+    cursor: pointer;
+    transition: .3s ease-all;
+}
+.c:hover{
+        color: rgb(30, 215, 96) ;
+}
+.USAandSpotifyAB{
+    font-size: 0.7rem;
+    margin-top: 12.5rem;
+}
+.SpotifyAB{
+    margin-left: -3.5rem;
+}
+.instagram{
+   margin-left: 70rem;
+   margin-top: -19rem;
+
+   cursor: pointer;
+    transition: .3s ease-all;
+}
+
+.twiter{
+    margin-left: 75rem;
+    margin-top: -3.7rem;
+
+    cursor: pointer;
+    transition: .3s ease-all;
+}
+.facebook{
+    margin-left: 80rem;
+    margin-top: -3.5rem;
+
+    cursor: pointer;
+    transition: .3s ease-all;
+}
